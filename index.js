@@ -14,7 +14,7 @@ app.use(express.json());
 
 mongoose.connect(process.env.MONGO_URL)
     .then(() => console.log('MongoDB connected'))
-    .catch(error => console.log(`DB Connection Error: ${error}`));
+    .catch(error => console.log(`DB Connection Error Sunny: ${error}`));
 
     
 
